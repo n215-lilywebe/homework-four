@@ -1,11 +1,7 @@
-# Example of media queries
+# Homework Three
 
-## This is an awesome H2
 
-dantium sequi ea dolorum, harum nam. Tempore nihil culpa, aperiam illo repellat voluptate quasi eius,
-at reiciendis asperiores repudiandae impedit obcaecati deleniti incidunt maxime sequi molestiae
-laudantium fugit. Labore obcaecati fugit excepturi velit cupiditate, voluptas quis blanditiis
-voluptatibus iusto eveniet enim hic consequatur, pariatur eos ex quasi reiciendis qui natus itaque!
-Expedita quia rerum tempora ratione aliquid similique, recusandae est voluptas mollitia minima consequatur necessitatibus
+Web 4 Link to homework assignment
+https://in-info-web4.informatics.iupui.edu/~lilywebe/homework-three/
 
-https://web4Link.com
+This assignment was to copy an Adobe XD file for the home page of a website. It included work in HTML, CSS, and SCSS. 

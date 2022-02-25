@@ -1,43 +1,25 @@
+@font-face {
+    font-family: ProximaNovaECT;
+    src: url(../Proxima_Nova_Extra_Condensed_Thin.otf);
+}
+@font-face {
+    font-family: GillSansUB;
+    src: url(../GILSANUB.TTF);
+}
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 html, body {
- height: 100%
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ height: 100%;
+}
+body{
+    background-color:$site-white;
+    
 }
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
-}
-.wrapper{
-    width:70%;
-    background-color:pink;
-    min-height:700px;
-    margin: 0 auto;
-
-    .box{
-        width:50%;
-        background-color:purple;
-        height:200px;
-    }
-    .media-box{
-        width:600px;
-        height:100px;
-        background-color:lightblue;
-
-    }
-}
-
-@media screen and (max-width:1000px) and (min-width:800px) {
-    .wrapper{
-        background-color:red;
-    }
-}
-
-@media all and (max-width:600px){
-    .wrapper{
-        .media-box{
-            width:300px;
-        }
-    }
 }

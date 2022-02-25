@@ -1,5 +1,5 @@
 {
-  "name": "feb-eight",
+  "name": "homework-four",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
 }

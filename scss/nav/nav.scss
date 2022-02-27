@@ -16,12 +16,13 @@ nav{
     }
 
     .logo{
-        width:92px;
-        height:42px;
+        max-width:10%;
+        height:53%;
 
     }
 
     .links{
+        max-width:80%;
 
         a{
             font-size: 15px;
@@ -32,4 +33,22 @@ nav{
         }
 
     }
+}
+@media screen and (max-width:1250px) and (min-width:890px) {
+    nav{
+        .links{
+            margin-left:20%;
+        }
+    }
+
+}
+
+@media screen and (max-width:889px){
+    nav{
+        .links{
+            font-size:10px;
+            margin-left:17%;
+        }
+    }
+
 }

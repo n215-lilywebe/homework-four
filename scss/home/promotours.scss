@@ -1,7 +1,7 @@
 .promotours{
     display:flex;
-    width: 810px;
-    height:305px;
+    width: 53%;
+    height:35%;
     margin: 0 auto;
     justify-content: space-between;
     margin-top:-37px;
@@ -131,5 +131,17 @@
             }
 
         }
+    }
+}
+
+@media screen and (max-width:1000px){
+    .promotours{
+        
+            flex-direction: column;
+            min-height:1000px;
+            margin-top:40px;
+            justify-content: space-around;
+            align-items: center;
+        
     }
 }

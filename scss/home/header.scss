@@ -9,7 +9,7 @@
 
     .herotext{
         text-align:center;
-        padding-top: 162px;
+        padding-top: 150px;
         color:$site-white;
 
         h1{
@@ -24,16 +24,28 @@
         }
         a{
             margin:0 auto;
-            display:block;
             background-color: $site-blue;
-            height:40px;
+            height:10%;
             width:10%;
             font-size: 15px;
             padding-top: 10px;
+            padding-bottom:10px;
             text-decoration: none;
             color:$site-white;
-            margin-top: 5%;
+            display:inline-block;
+            margin-top:10px;
+            
 
         }
     }
+}
+
+@media screen and (max-width:1000px){
+
+    .banner{
+        .herotext{
+            padding-top:15%;
+        }
+    }
+
 }

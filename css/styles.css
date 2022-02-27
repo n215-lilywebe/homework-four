@@ -76,7 +76,7 @@ nav .links a {
 }
 .banner .herotext {
   text-align: center;
-  padding-top: 162px;
+  padding-top: 150px;
   color: white;
 }
 .banner .herotext h1 {
@@ -91,17 +91,23 @@ nav .links a {
 }
 .banner .herotext a {
   margin: 0 auto;
-  display: block;
   background-color: #79addc;
-  height: 40px;
+  height: 10%;
   width: 10%;
   font-size: 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
   color: white;
-  margin-top: 5%;
+  display: inline-block;
+  margin-top: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .banner .herotext {
+    padding-top: 15%;
+  }
+}
 .form-content {
   max-width: 818px;
   min-height: 200px;
@@ -117,7 +123,9 @@ nav .links a {
   color: black;
 }
 .form-content .submit {
-  width: 813px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
   height: 60px;
   font-size: 15px;
   margin: 37px auto 0 auto;
@@ -133,6 +141,7 @@ nav .links a {
 .form-content .message {
   width: 818px;
   height: 192px;
+  display: block;
   margin-top: 20px;
   padding-left: 10px;
   border-color: #79addc;
@@ -222,10 +231,10 @@ nav .links a {
   width: 120px;
 }
 .form-content .top-boxes .check {
-  width: 698px;
+  width: 85%;
 }
 .form-content .top-boxes .long-boxes {
-  width: 453px;
+  max-width: 453px;
 }
 .form-content .top-boxes .icon {
   margin-left: -30px;
@@ -240,9 +249,27 @@ nav .links a {
 }
 
 @media screen and (max-width: 900px) {
+  .form-content .message {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
   .form-content .top-boxes {
     flex-direction: column;
     align-items: space-between;
+  }
+  .form-content .top-boxes .icon {
+    display: none;
+  }
+  .form-content .top-boxes input {
+    margin-bottom: 5%;
+    max-width: 344px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form-content .formtitle {
+    width: 30%;
+    margin: 0 auto;
   }
 }
 .promotours {
@@ -360,7 +387,7 @@ nav .links a {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .promotours {
     flex-direction: column;
     min-height: 1000px;
@@ -379,7 +406,7 @@ nav .links a {
   justify-content: space-evenly;
   margin: 0 auto;
   display: flex;
-  width: 1280px;
+  max-width: 1280px;
   text-align: center;
   padding-top: 42px;
 }

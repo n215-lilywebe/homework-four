@@ -18,7 +18,9 @@
 
 
     .submit{
-        width:813px;
+        width:90%;
+        margin:0 auto;
+        display:block;
         height:60px;
         font-size: 15px;
         margin: 37px auto 0 auto;
@@ -35,6 +37,7 @@
     .message{
         width:818px;
         height:192px;
+        display:block;
         margin-top: 20px;
             padding-left:10px;
             border-color:#79addc;
@@ -135,11 +138,11 @@
         
 
         .check{
-            width:698px;
+            width:85%;
 
         }
         .long-boxes{
-            width:453px;
+            max-width:453px;
         }
 
         .icon{
@@ -158,9 +161,38 @@
 @media screen and (max-width:900px){
     
     .form-content{
+        
+        .message{
+            width:90%;
+            margin: 0 auto;
+            margin-top:5%;
+
+        }
     .top-boxes{
+        .icon{
+            display:none;
+        }
+        h2{
+            
+        }
 flex-direction: column;
 align-items:space-between;
+input{
+    
+    margin-bottom: 5%;
+    max-width:344px;
+}
+    }
+}
+
+}
+
+@media screen and (max-width:900px){
+    
+    .form-content{
+    .formtitle{
+width:30%;
+margin: 0 auto;
     }
 }
 

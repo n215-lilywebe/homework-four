@@ -234,7 +234,7 @@ nav .links a {
   width: 85%;
 }
 .form-content .top-boxes .long-boxes {
-  max-width: 453px;
+  width: 453px;
 }
 .form-content .top-boxes .icon {
   margin-left: -30px;
@@ -260,6 +260,9 @@ nav .links a {
   }
   .form-content .top-boxes .icon {
     display: none;
+  }
+  .form-content .top-boxes .long-boxes {
+    max-width: 344px;
   }
   .form-content .top-boxes input {
     margin-bottom: 5%;
